@@ -1,0 +1,38 @@
+@import './base.css';
+
+.product {
+    width: 239px;
+    height: 315px;
+    background-color: rgba(213, 191, 236, 0.2);
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgb(216, 191, 216);
+    text-align: center;
+    margin: 40px 10px;
+}
+
+.product img {
+    width: 55%;
+    margin: 15px;
+    padding: 20px;
+}
+
+.product img:hover {
+
+    transform: scale(1.7);
+}
+
+
+.product img {
+
+
+    transition-duration: 1s;
+    transition: transform(2s);
+}
+
+.product h3,
+span {
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 7px;
+}
